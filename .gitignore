@@ -1,0 +1,12 @@
+*.iml
+.gradle/
+.kotlin/
+.idea/
+.android-sdk/
+.tools/
+local.properties
+**/build/
+.signing/
+captures/
+app/schemas/
+.temp/

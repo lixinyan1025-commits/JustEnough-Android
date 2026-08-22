@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug-only: allow the local mock API endpoint used by the in-house
+         end-to-end chat test. Release builds keep cleartext traffic disabled. -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>

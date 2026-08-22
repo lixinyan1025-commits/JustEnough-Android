@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">刚刚好</string>
+    <string name="widget_name">今日计划</string>
+    <string name="widget_description">在桌面直接查看和开始今天的计划</string>
+    <string name="notification_channel_plan">计划提醒</string>
+    <string name="notification_channel_active">进行中的任务</string>
+</resources>
