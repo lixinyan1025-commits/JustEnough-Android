@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="刚刚好 Just Enough - AI 辅助的 Android 生活规划 App">
+  <title>刚刚好 Just Enough</title>
+  <style>
+    :root {
+      --bg: #FBF8F1;
+      --ink: #33312B;
+      --muted: #7A746A;
+      --green: #315D51;
+      --coral: #A6534B;
+      --line: #E8E2D6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+      line-height: 1.7;
+      padding: 32px 20px 56px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 34px; letter-spacing: 0; }
+    .tagline { color: var(--muted); margin-top: 8px; font-size: 16px; }
+    .badge {
+      display: inline-block;
+      background: var(--green);
+      color: #fff;
+      font-size: 13px;
+      padding: 3px 12px;
+      border-radius: 999px;
+      margin-top: 16px;
+    }
+    .download {
+      display: block;
+      margin-top: 24px;
+      background: var(--coral);
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      padding: 14px 20px;
+      border-radius: 10px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .download small { display: block; font-weight: 400; font-size: 13px; opacity: .85; margin-top: 2px; }
+    h2 { font-size: 20px; margin: 36px 0 12px; }
+    ul { padding-left: 20px; color: var(--ink); }
+    li { margin-bottom: 6px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
+    .grid img { width: 100%; border-radius: 8px; border: 1px solid var(--line); display: block; }
+    video { width: 100%; border-radius: 8px; border: 1px solid var(--line); margin-top: 10px; background: #000; }
+    .links { margin-top: 32px; }
+    .links a {
+      display: inline-block;
+      margin: 0 12px 8px 0;
+      color: var(--green);
+      font-size: 14px;
+    }
+    footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>刚刚好 Just Enough</h1>
+    <p class="tagline">一款以手机桌面为入口的 AI 生活规划应用：到点提醒、自动开始，让 AI 小宠陪你把日子过成刚刚好的节奏。</p>
+    <span class="badge">Android 10–16 · 竖屏手机</span>
+
+    <a class="download" href="release/JustEnough-v1.4.7-release.apk">
+      下载演示 APK
+      <small>v1.4.7 · 正式签名 · 可直接安装</small>
+    </a>
+
+    <h2>核心功能</h2>
+    <ul>
+      <li>四象限计划：重要且紧急 / 重要不紧急 / 不重要但紧急 / 不重要也不紧急，支持拖动换区。</li>
+      <li>闹钟式任务触发：到点持续响铃，可自动开始任务并打开绑定的 App，同时显示“现在做什么、目标是什么”。</li>
+      <li>AI 分析：DeepSeek 官方与自定义接口，建议需确认后才写入，Key 本地加密。</li>
+      <li>动态桌宠“小满”：原创 Lottie 矢量角色，主动提醒、提问，点击即可浮窗聊天。</li>
+      <li>充实度与反馈：每天五格充实度，完成或“够了”时填写，反馈克制不制造焦虑。</li>
+      <li>本地优先：数据默认保存在本机，备份不含 API Key。</li>
+    </ul>
+
+    <h2>界面预览</h2>
+    <div class="grid">
+      <img src="screenshots/today.png" alt="今天页">
+      <img src="screenshots/plan.png" alt="四象限计划">
+      <img src="screenshots/pet-preview.png" alt="桌宠小满">
+    </div>
+
+    <h2>功能演示</h2>
+    <video controls preload="metadata" src="demo/video-01.mp4"></video>
+    <video controls preload="metadata" src="demo/video-02.mp4"></video>
+
+    <div class="links">
+      <a href="产品介绍.md">完整产品介绍</a>
+      <a href="README.md">项目说明</a>
+      <a href="https://github.com/lixinyan1025-commits/JustEnough-Android">GitHub 源码</a>
+    </div>
+
+    <footer>数据默认本地保存 · 不依赖 Google 服务 · 作品集项目</footer>
+  </div>
+</body>
+</html>
