@@ -50,8 +50,21 @@
     h2 { font-size: 20px; margin: 36px 0 12px; }
     ul { padding-left: 20px; color: var(--ink); }
     li { margin-bottom: 6px; }
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
     .grid img { width: 100%; border-radius: 8px; border: 1px solid var(--line); display: block; }
+    .files { margin-top: 12px; }
+    .file-card {
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: var(--ink);
+      background: #fff;
+    }
+    .file-card strong { display: block; color: var(--green); font-size: 16px; }
+    .file-card span { font-size: 13px; color: var(--muted); }
     video { width: 100%; border-radius: 8px; border: 1px solid var(--line); margin-top: 10px; background: #000; }
     .links { margin-top: 32px; }
     .links a {
@@ -84,16 +97,48 @@
       <li>本地优先：数据默认保存在本机，备份不含 API Key。</li>
     </ul>
 
-    <h2>界面预览</h2>
+    <h2>全部截图</h2>
     <div class="grid">
       <img src="screenshots/today.png" alt="今天页">
       <img src="screenshots/plan.png" alt="四象限计划">
       <img src="screenshots/pet-preview.png" alt="桌宠小满">
+      <img src="demo/screenshot-01.jpg" alt="截图 01">
+      <img src="demo/screenshot-02.jpg" alt="截图 02">
+      <img src="demo/screenshot-03.jpg" alt="截图 03">
+      <img src="demo/screenshot-04.jpg" alt="截图 04">
+      <img src="demo/screenshot-05.jpg" alt="截图 05">
+      <img src="demo/screenshot-06.jpg" alt="截图 06">
+      <img src="demo/screenshot-07.jpg" alt="截图 07">
+      <img src="demo/screenshot-08.jpg" alt="截图 08">
+      <img src="demo/screenshot-09.jpg" alt="截图 09">
+      <img src="demo/screenshot-10.jpg" alt="截图 10">
+      <img src="demo/screenshot-11.jpg" alt="截图 11">
+      <img src="demo/screenshot-12.jpg" alt="截图 12">
+      <img src="demo/screenshot-13.jpg" alt="截图 13">
+      <img src="demo/screenshot-14.jpg" alt="截图 14">
+      <img src="demo/screenshot-15.jpg" alt="截图 15">
+      <img src="demo/screenshot-16.jpg" alt="截图 16">
     </div>
 
     <h2>功能演示</h2>
     <video controls preload="metadata" src="demo/video-01.mp4"></video>
     <video controls preload="metadata" src="demo/video-02.mp4"></video>
+
+    <h2>交付文件</h2>
+    <div class="files">
+      <a class="file-card" href="release/JustEnough-v1.4.7-release.apk">
+        <strong>安装包 APK（可直接安装）</strong>
+        <span>v1.4.7 · 正式签名 · 约 4.4 MB</span>
+      </a>
+      <a class="file-card" href="https://github.com/lixinyan1025-commits/JustEnough-Android/archive/refs/heads/main.zip">
+        <strong>完整源码压缩包</strong>
+        <span>包含 Android 项目源码、文档与演示素材 · GitHub 自动打包</span>
+      </a>
+      <a class="file-card" href="https://github.com/lixinyan1025-commits/JustEnough-Android">
+        <strong>源码仓库</strong>
+        <span>前往 GitHub 查看完整代码、提交记录与说明</span>
+      </a>
+    </div>
 
     <div class="links">
       <a href="产品介绍.md">完整产品介绍</a>
