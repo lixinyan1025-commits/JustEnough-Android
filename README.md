@@ -4,7 +4,7 @@
 
 ## 在线体验与分享
 
-- 作品网站（微信可直接打开）：https://lixinyan1025-commits.github.io/JustEnough-Android/
+- 作品网站：https://lixinyan1025-commits.github.io/JustEnough-Android/
 - 源码仓库：https://github.com/lixinyan1025-commits/JustEnough-Android
 
 图文版产品介绍（含 16 张真机截图与 2 段演示视频）见 [产品介绍.md](./产品介绍.md)，演示素材在 [demo/](./demo) 与 [screenshots/](./screenshots)。
